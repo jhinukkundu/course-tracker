@@ -45,7 +45,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build --build-arg JAR_NAME=target/course-tracker-1.0.0.jar -t $ECR_REPOSITORY .
+          docker build --build-arg JAR_NAME=course-tracker-1.0.0.jar -t $ECR_REPOSITORY .
 
       - name: Tag Docker Image
         run: |
