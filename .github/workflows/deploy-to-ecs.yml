@@ -15,7 +15,7 @@ env:
 
 jobs:
   deploy:
-    name: Build & Deploy to AWS ECS
+    name: Build & Deploy to AWS ECS Cluster
     runs-on: ubuntu-latest
 
     steps:
