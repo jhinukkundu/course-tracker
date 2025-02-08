@@ -29,7 +29,7 @@ public class CourseService {
     }
 
     public Course updateCourse(Long id, Course updatedCourse) {
-        Course course = getCourseById(id);
+        getCourseById(id);
         return courseRepository.save(updatedCourse);
     }
 
